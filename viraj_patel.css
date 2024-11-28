@@ -1,0 +1,316 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html{
+    behavior: scroll;
+}
+
+.navi{
+    background-color: rgb(217 217 217);
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+}
+
+.navi img{
+    margin: 9px;
+    margin-left: 85px;
+}
+
+.navi p{
+    font-size: 41px;
+    margin-top: 22px;
+}
+
+.navi ul{
+    padding-left: 530px;
+    display:ruby;
+}
+
+.navi ul li {
+    display: inline;
+    font-size: 35px;
+    margin: 0px 40px;
+}
+
+.navi ul{
+    margin-top:28px;
+}
+
+.navi ul li a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navi ul li a:hover {
+    color: white;
+}
+
+.navi ul li a.active {
+    color: white;
+}
+
+
+/* -----------------------------------Header end------------------------------------------------ */
+
+
+
+
+
+/* -----------------------------------Img Div Start------------------------------------------------ */
+
+.Imgdiv{
+    background-color: rgb(217 217 217);
+    height: 320px;
+    width: 1290px;
+    margin: 105px;
+}
+
+.Imgdiv p{
+    font-size: 40px;
+    text-align: center;
+    padding: 136px 0px;
+}
+
+/* -----------------------------------Img Div End------------------------------------------------ */
+
+
+
+
+
+/* -----------------------------------Content Div End------------------------------------------------ */
+.maindiv{
+    display: flex;
+    padding: 80px;
+}
+
+.maindiv .div1{
+    padding: 25px;
+}
+
+.maindiv .div2{
+    padding: 25px 0px 25px 82px;
+}
+
+.maindiv p{
+    font-size: 35px;
+}
+/* -----------------------------------Content Div End------------------------------------------------ */
+
+
+
+
+
+/* ----------------------------------Slider Div Start------------------------------------------------ */
+
+.sliderdiv{
+    background-color: rgb(217 217 217);
+    border-radius: 30px;
+    height: 530px;
+    width: 1288px;
+    margin: 105px;
+}
+
+.slider_content{
+    padding: 190px 0px;
+    display: flex;
+}
+.slider_content h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 162px;
+}
+
+.lessthan{
+    margin:30px 40px;
+}
+
+.slider_nm{
+    text-align: center;
+}
+
+.greaterthan{
+    margin: 30px 40px;
+    float:right
+}
+
+.circles{
+    text-align: center;
+    display: flex;
+    padding:0px 585px;
+}
+
+.black_dot{
+    background-color: black;
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    margin:0px 5px;
+}
+
+.white_dot{
+    background-color: white;
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    margin:0px 5px;
+    
+}
+/* -----------------------------------Slider Div End------------------------------------------------ */
+
+
+
+
+
+/* -----------------------------------Img Content Start------------------------------------------------ */
+
+.img_content{
+    display: flex;
+    padding: 100px;
+    gap: 70px
+}
+
+.img_content .img{
+    background-color: rgb(217 217 217);
+    height: 380px;
+    width: 730px;
+    place-items: center;
+}
+.img p{
+    font-size: 40px;
+    text-align: center;
+    padding: 128px 0px;
+}
+
+.img_content .content{
+    width: 50%;
+}
+
+.content h1{
+    margin-top: 0px;
+}
+.content p{
+    font-size: 29px;
+}
+
+/* -----------------------------------Img Content End------------------------------------------------ */
+
+/* --------------------------------------------Footer Start------------------------------------------------ */
+
+.footer{
+    background-color: rgb(217 217 217);
+    border-radius: 5px;
+    height: 385px;
+    width: 1250px;
+    margin: 60px 123px;
+    position: relative;
+    display: flex;
+}
+
+.footer_content{
+    height: 345px;
+    width: 265px;
+    margin: 20px 70px;
+    font-family: Comic Sans MS;
+}
+
+.footer_content img{
+    height: 138px;
+    width: 138px;
+    margin-left: -15px;
+}
+
+.footer_content h1{
+    margin-top: 0px;
+    font-family: Comic Sans MS;
+}
+
+.footer_content .p1,.p3{
+    font-family: Comic Sans MS;
+    margin-top: -8px;
+}
+
+.footer_content .p2{
+    font-family: Comic Sans MS;
+    margin-top: -20px;
+}
+
+.insta{
+    margin: -8px 0px 15px 73px;
+    font-family: Comic Sans MS;
+}
+
+.footer .sub_footer{
+    background-color: rgb(172, 172, 172);
+    border-radius: 30px;
+    height: 163px;
+    width: 695px;
+    margin: 70px 70px 70px 0px;
+    display: flex;
+    padding: 40px 60px;
+}
+
+.project{
+    width:221px;
+    height:165px;
+}
+.project p{
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    text-align: center;
+}
+
+.aboutus{
+    width:221px;
+    height:165px;
+}
+.aboutus p{
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    text-align: center;
+}
+
+.abt_content{
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.abt_content p{
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    margin-top: -12px;
+}
+
+.family{
+    width:221px;
+    height:165px;
+}
+.family p{
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_box{
+    display: flex;
+    column-gap: 10px;
+    column-gap: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgb(217 217 217);
+    height: 40px;
+    width:40px;
+}
+
+
+/* --------------------------------------------Footer End------------------------------------------------ */
